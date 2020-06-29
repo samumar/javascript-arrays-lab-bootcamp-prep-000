@@ -29,3 +29,7 @@ function removeLastKitten() {
   const newKitten = kittens.slice(0, 2);
   return newKitten;
 }
+function removeFirstKitten() {
+  const newKitten = kittens. slice(1);
+  return newKitten;
+}
