@@ -17,3 +17,6 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
   return kittens;
 }
+function appendKitten(kitten) {
+  const newKitten = kittens.concat
+}
